@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add page</title>
+    <link rel="stylesheet" href="bootsrap/css/bootstrap.min.css">
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+        margin: 0;
+        padding: 0;
+       
+      }
+
+      h1 {
+        text-align: center;
+        color: #333;
+      }
+
+      form {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      label {
+        display: block;
+        margin-bottom: 5px;
+      }
+
+      input[type="text"],
+      input[type="number"],
+      textarea,
+      select {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+      input[type="file"],
+      input[type="color"] {
+        margin-bottom: 10px;
+      }
+
+      button {
+        background-color: #007bff;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background-color: #0056b3;
+      }
+  nav{
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        font-family: sans-serif;
+        font-weight: bold;
+        background-color: rgb(251, 190, 210);
+  
+      }
+    </style>
+    <nav>
+      <a href="index.html">HOME</a>
+      <br />
+      <a href="About.html">ABOUT US</a>
+      <br>
+      <a href="list-of-item.html">ITEMS</a>
+      <br />
+      <a href="update.html">UPDATE</a>
+      <br />
+  </nav>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row"> 
+        <div class="col-lg-4" style="border: 2px solid #2b3b2d;">
+          <h1>Add Product</h1>
+          <p>first column</p>
+          <p>add page</p>
+        </div>
+
+
+        <div class="col-lg-4" style="border: 2px solid #141e14;">
+          <h1>Add Product</h1>
+          <p>second column</p>
+          <p>add page</p>
+      </div>
+      <div class="col-lg-4" style="border: 2px solid #273d1e;">
+        <h1>Add Product</h1>
+        <p>third column</p>
+        <p>add page</p>
+    </div>
+    
+<br>
+<br>
+
+    <form>
+      <label for="productName">Product Name:</label>
+      <input type="text" id="productName" name="productName" /><br /><br />
+
+      <label for="description">Description:</label><br />
+      <textarea id="description" name="description"></textarea><br /><br />
+
+      <label for="price">Price:</label>
+      <input type="number" id="price" name="price" /><br /><br />
+
+      <label for="image">Image:</label>
+      <input type="file" id="image" name="image" /><br /><br />
+
+      <label for="size">Size:</label>
+      <select id="size" name="size">
+        <option value="small">Small</option>
+        <option value="medium">Medium</option>
+        <option value="large">Large</option></select
+      ><br /><br />
+
+      <label for="color">Color:</label>
+      <input type="color" id="color" name="color" /><br /><br />
+
+      <button type="submit">Add to Cart</button>
+    </form>
+  </body>
+</html>

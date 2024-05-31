@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Upadate</title>
+    <link rel="stylesheet" href="bootsrap/css/bootstrap.min.css">
+
+    <style>
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        font-family: sans-serif;
+        font-weight: bold;
+        background-color: rgb(175, 173, 251);
+      }
+      article{
+       background-image: url(https://th.bing.com/th/id/OIP.f6LBKFXOr-oSeXNGV8M5iAHaEo?pid=ImgDet&w=474&h=296&rs=1);
+      }
+      h3 {
+        font-size: 25px;
+        font-style: italic;
+        color: rgb(18, 18, 69);
+        font-weight: bold;
+        font-family: sans-serif;
+      }
+      input[type="text"],
+      input[type="email"] {
+        padding: 10px;
+        margin: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+        
+      }
+
+      input[type="submit"] {
+        background-color: #007bff;
+        color: white;
+        padding: 10px 20px;
+        border: non;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      input[type="submit"]:hover {
+        background-color: azure;
+        color: black;
+      }
+      input[type="submit"]:active {
+        background-color: azure;
+      }
+      label {
+  font-weight: bold;
+  color: #333;
+}
+form {
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+
+      
+    </style>
+  </head>
+  <header>
+    <a href="index.html">HOME</a>
+    <br />
+    <a href="About.html">ABOUT US</a>
+    <a href="add.html">ADD</a>
+    <a href="list-of-item.html">ITEMS</a>
+  </header>
+  <body>
+    <h3><abbr>Update Form</abbr></h3>
+    <br />
+<article>
+    <form action="/update" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" /><br /><br />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" /><br /><br />
+
+      <label for="address">Address:</label>
+      <input type="text" id="address" name="address" /><br /><br />
+
+      <input type="submit" value="Update" />
+    </article>
+    </form>
+  </body>
+</html>
