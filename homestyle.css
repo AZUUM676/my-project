@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgb(173, 216, 230, 1);
+  text-align: center;
+  padding: 20px;
+}
+
+.featured-products {
+  text-align: center;
+  padding: 20px;
+}
+
+.product {
+  display: inline-block;
+  margin: 10px;
+}
+
+.product img {
+  width: 200px;
+  height: 200px;
+}
+
+.promotions {
+  background-color: rgb(130, 189, 248);
+  text-align: center;
+  padding: 20px;
+}
+footer {
+  font-style: italic;
+  text-align: center;
+  background-color: rgb(163, 163, 160);
+}
+input[type="text"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 5px;
+}
+
+button[type="submit"] {
+  padding: 10px 30px;
+  background-color: #007bff;
+  color: white;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
