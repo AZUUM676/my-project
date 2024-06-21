@@ -160,7 +160,7 @@
       display: none;
     }
 
-    .nav-links.active{
+    .nav-links.active {
       display: flex;
     }
 
@@ -173,14 +173,19 @@
 
 <body>
   <header>
-    
+    `
     <nav>
-      <div class="logo">ShoeStore</div>
+      <div class="logo">
+        <img src="images/Re.png" alt="cone" width="85" height="75">
+        Cone shoeStore
+      </div>
       <ul class="nav-links">
-        <li><a href="hm2.html">Home</a></li>
-        <li><a href="About.html">About</a></li>
-        <li><a href="Product.html"> Add Products</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="hm2.php">Home</a></li>
+        <li><a href="About.php">About</a></li>
+        <li><a href="Product.php"> Add Products</a></li>
+        <li><a href="contact.php">Contact</a></li>
+
+        <li><a href="display_data.php">displaydata</a></li>
       </ul>
       <div class="cart-icon">
         <a href="#cart">Cart <span class="cart-count">0</span></a>
@@ -191,7 +196,7 @@
 
   <section id="home" class="hero-section">
     <div class="hero-content">
-      <h1>Welcome to ShoeStore</h1>
+      <h1>Welcome to ConeShoeStore</h1>
       <p>Your one-stop shop for the best shoes in town.</p>
       <a href="#products" class="btn">Shop Now</a>
     </div>
@@ -205,28 +210,28 @@
           alt="Shoe 1" />
         <h3>Running Shoes</h3>
         <p>Perfect for your daily run or the gym.</p>
-        <a href="Product.htm" class="btn">Add to Cart</a>
+        <a href="Product.php" class="btn">Add to Cart</a>
       </div>
       <div class="product-card">
         <img src="https://th.bing.com/th/id/OIF.IwTvUp48p1JG29vKAUVPNg?w=220&h=182&c=7&r=0&o=5&dpr=1.5&pid=1.7"
           alt="Shoe 2" />
         <h3>Formal Shoes</h3>
         <p>Elegance and comfort for any formal occasion.</p>
-        <a href="Product.htm" class="btn">Add to Cart</a>
+        <a href="Product.php" class="btn">Add to Cart</a>
       </div>
       <div class="product-card">
         <img src="https://th.bing.com/th/id/OIP.NKCPoP9hxmlbUbGgpO0_nQHaIK?w=178&h=195&c=7&r=0&o=5&dpr=1.5&pid=1.7"
           alt="Shoe 3" />
         <h3>Heel Shoes</h3>
         <p>Stylish and comfortable for everyday wear.</p>
-        <a href="Product.htm" class="btn">Add to Cart</a>
+        <a href="Product.php" class="btn">Add to Cart</a>
       </div>
       <div class="product-card">
         <img src="https://th.bing.com/th/id/OIP.4BE85wp_Vw2bOVX5z3PsKAHaHa?w=195&h=196&c=7&r=0&o=5&dpr=1.5&pid=1.7"
           alt="shoes4" />
         <h3>Classy heel</h3>
         <p>Stylish sexy open heel .</p>
-        <a href="Product.htm" class="btn">Add to Cart</a>
+        <a href="Product.php" class="btn">Add to Cart</a>
       </div>
       <div class="product-card">
         <img src="https://th.bing.com/th/id/OIP.P002dynaWZMy8Ak-p4aiBgHaHa?w=159&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7"
@@ -235,7 +240,7 @@
         <p>Motion Control Accepted APMA
 
           Women's Running Shoes .</p>
-        <a href="Product.htm" class="btn">Add to Cart</a>
+        <a href="Product.php" class="btn">Add to Cart</a>
       </div>
       <div class="product-card">
         <img src="https://th.bing.com/th/id/OIP.owgta6Z8p5EA1GKcinmCdQHaEc?w=237&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7"
@@ -244,7 +249,7 @@
         <p>
 
           Footbal Shoes .</p>
-        <a href="Product.htm" class="btn">Add to Cart</a>
+        <a href="Product.php" class="btn">Add to Cart</a>
       </div>
     </div>
   </section>
@@ -265,7 +270,7 @@
                 src="https://th.bing.com/th/id/OIP.eEIKCPXvWPuBfEsL_ZT2iwHaE8?w=237&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7"
                 class="d-block w-100" alt="Slide 2">
             </div>
-            
+
           </div>
           <!-- Carousel Controls -->
           <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
