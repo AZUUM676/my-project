@@ -213,8 +213,7 @@
         <a href="Product.php" class="btn">Add to Cart</a>
       </div>
       <div class="product-card">
-        <img src="https://th.bing.com/th/id/OIF.IwTvUp48p1JG29vKAUVPNg?w=220&h=182&c=7&r=0&o=5&dpr=1.5&pid=1.7"
-          alt="Shoe 2" />
+        <img src="images/Re.png" alt="Shoe 2" />
         <h3>Formal Shoes</h3>
         <p>Elegance and comfort for any formal occasion.</p>
         <a href="Product.php" class="btn">Add to Cart</a>

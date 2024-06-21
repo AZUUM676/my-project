@@ -47,6 +47,9 @@ require_once("db_connect.php");
             <div class="form-group">
               <label for="size">Size:</label>
               <select class="form-control" name="size">
+              </select>
+              <button type="submit" class="btn btn-primary">Save Product</button>
+
   </form>
 </body>
 
